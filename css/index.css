@@ -228,6 +228,15 @@ nav .navigation a {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn button {
+  width: 110px;
+  height: 45px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #F1F1F1;
+  background-color: #22283A;
+  border-radius: 5px;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
