@@ -1,20 +1,24 @@
 // Navigation code here
 nav {
-    width: 1903px;
+    max-width: 1903px;
+    width: 100%;
     height: 100px;
     font-family: @nav-font;
     background-color: @nav-bg;
     border-bottom: 1px solid @nav-border;
 
+    @media @phone {
+        width: 100%;
+    }
     .navigation {
-        width: 42%;
-        height: 100%;
+        max-width: 1903px;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
 
         h1 {
             font-size: 4rem;
-            padding: 1% 0% 2% 0%;
+            padding: 1% 0% 0.8% 0%;
         }
 
         a {
@@ -23,5 +27,13 @@ nav {
             text-decoration: none;
             color: @main-font-color;
         }
-    }
+        @media @phone {
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            h1 {
+                padding-bottom: 3%;
+            }
+        }
+    }//navigation closer
 }//nav closer 
